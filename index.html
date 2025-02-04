@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fricken Chies</title>
+</head>
+<body>
+    <header>
+        <div class="header-images">
+            <img id="header-img" src="logo.jpg" alt="logo Fricken Chies">
+            <h1><img class="name-header" src="name.jpg" alt="Name Fricken Chies"></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="#"><b>About</b></a></li>
+                <li><a href="#menu"><b>Menu</b></a></li>
+                <li><a href="#order-form"><b>Order</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 id="menu">MENU</h2>
+            <div class="menu-item-row">
+                <article>
+                    <h3>1. Chicken Sandwich</h3>
+                    <img class="menu-img" src="Chicken Sandwich.jpeg" alt="A chicken sandwich">
+                    <p>Our signature sandwich, made with chicken breast, lettuce, tomato, and mayo.</p>
+                    <p><i>$5.99</i></p>
+                </article>
+                <article>
+                    <h3>2. Chicken Tenders</h3>
+                    <img class="menu-img" src="Chicken Tenders.webp" alt="A chicken tenders">
+                    <p>Our signature tenders, made with chicken breast, and fried to perfection.</p>
+                    <p><i>$6.99</i></p>
+                </article>
+                <article>
+                    <h3>3. Chicken Wings</h3>
+                    <img class="menu-img" src="Chicken Wings.webp" alt="A chicken wings">
+                    <p>Our signature wings, made with chicken wings, and fried to perfection.</p>
+                    <p><i>$7.99</i></p>
+                </article>
+            </div>
+            <div class="menu-item-row">
+                <article>
+                    <h3>4. Chicken Salad</h3>
+                    <img class="menu-img" src="Chicken Salad.jpg" alt="A chicken salad">
+                    <p>Our signature salad, made with chicken breast, lettuce, tomato, and mayo.</p>
+                    <p><i>$8.99</i></p>
+                </article>
+                <article>
+                    <h3>5. Chicken Wrap</h3>
+                    <img class="menu-img" src="Chicken Wrap.jpg" alt="A chicken wrap">
+                    <p>Our signature wrap, made with chicken breast, lettuce, tomato, and mayo.</p>
+                    <p><i>$9.99</i></p>
+                </article>
+                <article>
+                    <h3>6. Chicken Fries</h3>
+                    <img class="menu-img" src="Chicken Fries.jpg" alt="A chicken fries">
+                    <p>Our signature fries, made with chicken breast, and fried to perfection.</p>
+                    <p><i>$10.99</i></p>
+                </article>
+            </div>
+        </section>
+        <section>
+            <h2 class="order-form"> PLACE YOUR ORDER</h2></h2>
+            <div class="order-container">
+                <form id="order-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label class="dish-selecter">1. Chicken Sandwich <input type="number" min="0" max="10" placeholder="Quantity" class="quantity-selector"></label>
+                    <label class="dish-selecter">2. Chicken Tenders <input type="number" min="0" max="10" placeholder="Quantity" class="quantity-selector"></label>
+                    <label class="dish-selecter">3. Chicken Wings <input type="number" min="0" max="10" placeholder="Quantity" class="quantity-selector"></label>
+                    <label class="dish-selecter">4. Chicken Salad <input type="number" min="0" max="10" placeholder="Quantity" class="quantity-selector"></label>
+                    <label class="dish-selecter">5. Chicken Wrap <input type="number" min="0" max="10" placeholder="Quantity" class="quantity-selector"></label>
+                    <label class="dish-selecter">6. Chicken Fries <input type="number" min="0" max="10" placeholder="Quantity" class="quantity-selector"></label>
+            
+                    <h3>Spice Instruction</h3>
+                    <p>Very Spicy</p><input type="radio" name="option">
+                    <p>Spicy</p><input type="radio" name="option">
+                    <p>Less Spicy</p><input type="radio" name="option">
+                    <br><br>
+                    <label for="order">Order notes:</label>
+                    <textarea id="order" name="order" required></textarea>
+                    <button type="submit">Go To Checkout</button>
+                </form>
+                <img id="place-order-img" src="order.jpg" alt="Text place your order with a chicken">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Made with love by CEGS9</p>
+    </footer>
+</body>
+</html>
